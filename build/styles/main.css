@@ -1,0 +1,2 @@
+body .container{display:grid;grid-template-columns:repeat(3, 33%)}body .container .col1{background-color:blue}body .container .col2{background-color:red}body .container .col3{background-color:green}
+/*# sourceMappingURL=maps/main.css.map */

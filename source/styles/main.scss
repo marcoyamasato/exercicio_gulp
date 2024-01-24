@@ -1,0 +1,18 @@
+@use 'variaveis';
+
+body{
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+
+        .col1{
+            background-color: variaveis.$corPrimaria;
+        };
+        .col2{
+            background-color: variaveis.$corSecundaria;
+        };
+        .col3{
+            background-color: variaveis.$corTerceira;
+        };
+    }
+}
